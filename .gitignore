@@ -1,4 +1,7 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -27,3 +30,29 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
+desktop.ini
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+
+### Logs e temporários ###
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+### Arquivos pessoais (não versionar) ###
+.bash_history
+.gitconfig
+.ssh/
+.gradle/
+.android/
